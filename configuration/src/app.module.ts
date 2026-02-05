@@ -10,7 +10,6 @@ import configuration from './configuration/configuration';
       load: [configuration],
     }),
     ConditionalModule.registerWhen(ConfigurationModule, 'USE_FOO'), // 환경 변수의 boolean 값에 따라 모듈의 등록 여부를 결정합니다.
-    // ConfigurationModule,
   ],
   controllers: [],
   providers: [],
