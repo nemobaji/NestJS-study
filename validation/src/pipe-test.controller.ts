@@ -38,6 +38,6 @@ export class PipeTestController {
   //   export class CreateUserDtos {
   //   @IsArray() 1. 배열인지 검증
   //   @ValidateNested({ each: true })  2. 배열 내부의 각 항목을 검증하겠다고 선언
-  //   @Type(() => CreateUserDto)  3. 배열 안의 객체가 어떤 클래스인지 명시 (가장 중요)
+  //   @Type(() => CreateUserDto)  3. 배열 안의 객체가 어떤 클래스인지 명시
   //   users: CreateUserDto[];
 }
